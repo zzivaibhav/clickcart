@@ -13,9 +13,9 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 const jwt = require('jsonwebtoken');
 const User = require('./Models/User');
-const Category = require('../Api/Models/HomeScreen/Category');
-const Carousal = require('../Api/Models/HomeScreen/Carousal');
-const ProducSliderOne = require('../Api/Models/HomeScreen/ProducatSliderOne');
+const Category = require('./Models/HomeScreen/Category');
+const Carousal = require('./Models/HomeScreen/Carousal');
+const ProducSliderOne = require('./Models/HomeScreen/ProducatSliderOne');
 const DealsSquare = require('./Models/HomeScreen/DealsSquare');
 
 //connection to mongodb backend
